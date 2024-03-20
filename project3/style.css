@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Satoshi Medium, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 160%;
+}
+
+.background-image {
+    background-image: url("./images/648ca4d2dc815f33b0e41653_image\ 1.jpg");
+    color: #fff;
+    background-position: 50%;
+    background-size: cover;
+    width: 1521px;
+    height: 836.8px;
+}
+
+.navbar {
+    width: 1520.8px;
+    height: 121.6px;
+    padding: 32px 0px 32px 0px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.navbar-content {
+    padding: 0px 30px 0px 30px;
+    justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__brand {
+    width: 440.65px;
+    height: 57.6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__brand--img {
+    background-image: url("./images/648ca5170abb16d2cbafcf43_Obanai.svg");
+    width: 179px;
+    height: 41px;
+}
+.brand-separator {
+    width: 1px;
+    height: 32px;
+    background-color: rgba(255, 255, 255, .08);
+}
+.navbar__brand a {
+    color: #fff;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 40px;
+    padding: 4px 12px;
+    text-decoration: none;
+}
+.navbar__manu {
+    width: 455px;
+    height: 45.6px;
+}
+.nav-link {
+    color: #fff;
+    padding: 10px 16px 10px 16px;
+    text-decoration: none;
+    transition: color .2s;
+    display: inline-block;
+}
+.navbar-purchase button{
+    color: black;
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 20px 62px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+}
+.navbar-purchase img {
+    padding-left: 10px;
+}
+.hero-section {
+    width: 1520.8PX;
+    height: 715.2px;
+    padding: 160px 0px 160px 0px;
+}
+.hero-section img {
+    width: 320px;
+    height: 490px;
+    position: absolute;
+    top: 344.2px;
+    left: 1200.8px;
+}
+.hero-section .container {
+    width: 1360px;
+    height: 395.2px;
+    padding: 0px 40px 0px 40px;
+    margin: 0px 80.4px 0px 80.4px;
+}
+.hero-section p {
+    width: 1280px;
+    height: 25.6px;
+    margin-bottom: 24px;
+    color: #eaff62;
+    font-size: 24px;
+}
+.hero-section h1 {
+    height: 240px;
+    width: 1280px;
+    margin-bottom: 32px;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 100%;
+}
+.button {
+    display: inline-block;
+    padding: 24px 50px;
+    background-color: #eaff62;
+    color: black;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+  }
